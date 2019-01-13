@@ -12,8 +12,8 @@ public class BasePage {
 	private static final int TIMEOUT = 5;
 	private static final int POLLING = 100;
 
-	protected WebDriver driver;
-	private WebDriverWait wait;
+	public WebDriver driver;
+	public WebDriverWait wait;
 
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
