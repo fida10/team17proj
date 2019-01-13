@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fida_domain" />
+        <module name="fida_framework" />
+        <module name="fida_page_objects" />
+        <module name="fida_regression_tests" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
