@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class BaseTest {
 
-	private WebDriver driver;
+	public WebDriver driver;
 
 	@BeforeSuite
 	public void beforeSuite() {
@@ -36,5 +36,6 @@ public class BaseTest {
 
 	public WebDriver getDriver() {
 		return driver;
+
 	}
 }
